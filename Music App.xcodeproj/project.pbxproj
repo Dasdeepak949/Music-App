@@ -13,6 +13,7 @@
 		7E84E96A203D4EDB0060A820 /* Music_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E84E968203D4EDB0060A820 /* Music_App.xcdatamodeld */; };
 		7E84E96C203D4EDB0060A820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E84E96B203D4EDB0060A820 /* Assets.xcassets */; };
 		7E84E96F203D4EDB0060A820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E84E96D203D4EDB0060A820 /* LaunchScreen.storyboard */; };
+		7E84E977203D6CA90060A820 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E84E976203D6CA90060A820 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E84E96B203D4EDB0060A820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E84E96E203D4EDB0060A820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E84E970203D4EDB0060A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E84E976203D6CA90060A820 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7E84E961203D4EDA0060A820 /* AppDelegate.swift */,
 				7E84E963203D4EDA0060A820 /* ViewController.swift */,
 				7E84E965203D4EDB0060A820 /* Main.storyboard */,
+				7E84E976203D6CA90060A820 /* Helper.swift */,
 				7E84E96B203D4EDB0060A820 /* Assets.xcassets */,
 				7E84E96D203D4EDB0060A820 /* LaunchScreen.storyboard */,
 				7E84E970203D4EDB0060A820 /* Info.plist */,
@@ -142,6 +145,7 @@
 				7E84E96A203D4EDB0060A820 /* Music_App.xcdatamodeld in Sources */,
 				7E84E964203D4EDA0060A820 /* ViewController.swift in Sources */,
 				7E84E962203D4EDA0060A820 /* AppDelegate.swift in Sources */,
+				7E84E977203D6CA90060A820 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +286,7 @@
 				DEVELOPMENT_TEAM = VC2ZMB2NSD;
 				INFOPLIST_FILE = "Music App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.srim.collegeapp.Music-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.srim.srimapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +301,7 @@
 				DEVELOPMENT_TEAM = VC2ZMB2NSD;
 				INFOPLIST_FILE = "Music App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.srim.collegeapp.Music-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.srim.srimapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
